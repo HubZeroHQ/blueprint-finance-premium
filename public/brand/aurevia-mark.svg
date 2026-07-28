@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Aurevia Capital mark</title>
+  <circle cx="32" cy="32" r="27" fill="none" stroke="#5e8678" stroke-width="2"/>
+  <path d="M20 30 32 42 44 30" fill="none" stroke="#173b32" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+  <path d="M32 16v26" fill="none" stroke="#5e8678" stroke-linecap="round" stroke-width="2"/>
+</svg>

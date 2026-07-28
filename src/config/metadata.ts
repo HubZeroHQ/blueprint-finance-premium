@@ -23,16 +23,29 @@ export const metadata: Metadata = {
 
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: site.locale,
     siteName: site.name,
     title: site.name,
     description: site.description,
     url: site.url,
+    images: [
+      {
+        url: site.openGraphImage,
+        width: 1200,
+        height: 630,
+        alt: `${site.name}: ${site.tagline}`,
+      },
+    ],
   },
 
   twitter: {
     card: "summary_large_image",
     title: site.name,
     description: site.description,
+    images: [site.openGraphImage],
+  },
+  icons: {
+    icon: site.icon,
+    apple: site.appleTouchIcon,
   },
 };

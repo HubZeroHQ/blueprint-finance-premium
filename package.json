@@ -1,7 +1,22 @@
 {
-  "name": "blueprint-base",
-  "version": "0.1.0",
+  "name": "blueprint-finance-premium",
+  "version": "1.0.0",
   "private": true,
+  "description": "HubZero's canonical Finance + Premium Blueprint reference implementation.",
+  "author": "HubZero",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HubZeroHQ/blueprint-finance-premium.git"
+  },
+  "keywords": [
+    "hubzero",
+    "blueprint",
+    "nextjs",
+    "finance",
+    "wealth-management",
+    "premium-design"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,7 +27,7 @@
   "dependencies": {
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "next": "16.2.10",
+    "next": "^16.2.12",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "tailwind-merge": "^3.6.0",
@@ -24,9 +39,13 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.10",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.12",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "overrides": {
+    "postcss": "8.5.18",
+    "sharp": "0.35.0"
   }
 }

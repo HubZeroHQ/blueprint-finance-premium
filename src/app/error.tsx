@@ -9,21 +9,24 @@ interface ErrorProps {
   reset: () => void;
 }
 
-export default function Error({
-  error,
-  reset,
-}: ErrorProps) {
+export default function Error({ error, reset }: ErrorProps) {
   useEffect(() => {
     console.error(error);
   }, [error]);
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center gap-4">
-      <h1 className="text-3xl font-semibold">
-        Something went wrong
-      </h1>
-
-      <button onClick={reset}>Try again</button>
+    <main id="main-content" className="lifecycle-page" tabIndex={-1}>
+      <div role="alert">
+        <p className="eyebrow">Unable to load</p>
+        <h1>Something interrupted the page.</h1>
+        <p>
+          Your information has not been submitted. Try loading this page again,
+          or return to the homepage.
+        </p>
+        <button className="button" type="button" onClick={reset}>
+          Try again
+        </button>
+      </div>
     </main>
   );
 }

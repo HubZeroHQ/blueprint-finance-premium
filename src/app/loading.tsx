@@ -1,7 +1,18 @@
 export default function Loading() {
   return (
-    <main className="flex min-h-screen items-center justify-center">
-      <p>Loading...</p>
+    <main
+      id="main-content"
+      className="loading-page"
+      role="status"
+      aria-live="polite"
+      aria-label="Loading page"
+    >
+      <div>
+        <span />
+        <span />
+        <span />
+      </div>
+      <p className="sr-only">Loading page</p>
     </main>
   );
 }

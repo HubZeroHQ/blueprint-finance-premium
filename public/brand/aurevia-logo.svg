@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 64" role="img" aria-labelledby="title desc">
+  <title id="title">Aurevia Capital</title>
+  <desc id="desc">A circular compass-inspired mark beside the Aurevia Capital wordmark</desc>
+  <circle cx="32" cy="32" r="27" fill="none" stroke="#5e8678" stroke-width="2"/>
+  <path d="M20 30 32 42 44 30" fill="none" stroke="#173b32" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+  <path d="M32 16v26" fill="none" stroke="#5e8678" stroke-linecap="round" stroke-width="2"/>
+  <text x="84" y="39" fill="#17201d" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="600" letter-spacing="4">AUREVIA CAPITAL</text>
+</svg>

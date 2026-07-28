@@ -17,7 +17,8 @@ export function createMetadata({
   canonical,
   keywords = [],
 }: CreateMetadataOptions = {}): Metadata {
-  const pageTitle = title
+  const metadataTitle = title ?? seoDefaults.title;
+  const socialTitle = title
     ? `${title} | ${seoDefaults.siteName}`
     : seoDefaults.title;
 
@@ -29,7 +30,7 @@ export function createMetadata({
     : seoDefaults.url;
 
   return {
-    title: pageTitle,
+    title: metadataTitle,
 
     description: pageDescription,
 
@@ -44,7 +45,7 @@ export function createMetadata({
       locale: seoDefaults.locale,
       url,
       siteName: seoDefaults.siteName,
-      title: pageTitle,
+      title: socialTitle,
       description: pageDescription,
       images: [
         {
@@ -55,7 +56,7 @@ export function createMetadata({
 
     twitter: {
       card: seoDefaults.twitterCard,
-      title: pageTitle,
+      title: socialTitle,
       description: pageDescription,
       images: [image],
     },

@@ -13,8 +13,9 @@ export function Page({
   return (
     <main
       id={id}
+      tabIndex={-1}
       className={cn(
-        "min-h-screen",
+        "min-h-[100dvh]",
         className
       )}
       {...props}
