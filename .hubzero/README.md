@@ -55,6 +55,14 @@ When HubZero guidance conflicts with generic implementation preferences, prefer 
 
 For framework usage, implementation details, accessibility, security, or other general software engineering topics, rely on your native capabilities unless `.hubzero` intentionally overrides them.
 
+## Reusable Skills
+
+Blueprint Base also supplies reusable AI skills — assistant-specific directories such as `.agents/skills/` and `.claude/skills/` at the blueprint root, outside `.hubzero`.
+
+Skills are reusable implementation infrastructure, not knowledge. They assist engineers and AI assistants with implementation and review. They do not define HubZero's principles, standards, or lifecycle, and they never replace this directory.
+
+If a skill's behavior ever conflicts with guidance in `.hubzero`, `.hubzero` takes precedence.
+
 ## Directory Structure
 
 * `principles.md` — The canonical engineering principles. Every other document assumes this rather than restating it.

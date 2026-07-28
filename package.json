@@ -19,7 +19,7 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@hubzero/blueprint": "^1.5.0",
+    "@hubzero/blueprint": "^1.6.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",

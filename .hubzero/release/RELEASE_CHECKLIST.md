@@ -21,6 +21,8 @@ This checklist defines the minimum quality standard required before any HubZero 
 
 A blueprint is considered **production-ready** only when every applicable item has been completed successfully.
 
+Where Blueprint Base supplies a reusable release-verification skill, it may be used to assist this process. It does not replace manual verification of any item in this checklist.
+
 ---
 
 # 1. Repository

@@ -80,6 +80,12 @@ If a design problem can only be solved by an infrastructure change, stop and rai
 
 ---
 
+# Reusable Skills
+
+Where Blueprint Base supplies a reusable skill applicable to design review — including editorial consistency checks within the Experience Generation Verification pass — it may be used to assist this stage. A skill does not automate any of the three passes or replace manual verification of their findings, and `.hubzero` remains the authority on HubZero's design standards.
+
+---
+
 # Final Question
 
 > If a prospective client saw this blueprint with no further explanation, would they conclude HubZero cares about details, or that this is an unfinished starter template?

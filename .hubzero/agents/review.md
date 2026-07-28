@@ -182,6 +182,12 @@ Do not approve an implementation that has not successfully completed the release
 
 ---
 
+# Reusable Skills
+
+Where Blueprint Base supplies a reusable skill applicable to engineering review — including accessibility or SEO verification — it may be used to assist this stage. A skill does not automate the review or replace manual verification of its findings, and `.hubzero` remains the authority on HubZero's review standards.
+
+---
+
 # Final Question
 
 Before completing the review, ask one final question:

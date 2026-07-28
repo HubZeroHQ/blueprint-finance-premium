@@ -48,6 +48,10 @@ Start the development server:
 npm run dev
 ```
 
+## AI Skills
+
+Blueprint Base also ships a small, curated library of reusable AI assistant skills under `.agents/skills/` and `.claude/skills/`. They assist implementation and review; they never override HubZero's engineering, architecture, or design guidance in `.hubzero`. See [SKILLS.md](./SKILLS.md) for what's included, why, and how to maintain it.
+
 ## Philosophy
 
 Blueprint Base standardizes engineering.

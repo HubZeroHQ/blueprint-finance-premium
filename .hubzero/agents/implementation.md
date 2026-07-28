@@ -99,6 +99,12 @@ See `.hubzero/principles.md` — Finish Completely. Edge cases, empty states, an
 
 ---
 
+# Reusable Skills
+
+Where Blueprint Base supplies a reusable skill applicable to implementation, it may be used to assist this stage. It does not replace manual verification of the work, and `.hubzero` remains the authority on HubZero's implementation expectations.
+
+---
+
 # Guiding Principle
 
 Implementation is not about writing the most code.

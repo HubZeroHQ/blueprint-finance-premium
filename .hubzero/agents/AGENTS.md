@@ -97,9 +97,21 @@ If shared engineering functionality is required by the vast majority of HubZero 
 
 If functionality is specific to this blueprint, keep it within the blueprint rather than modifying the shared engineering foundation.
 
+Blueprint Base also supplies reusable AI skills — see Reusable AI Skills below.
+
 Blueprint Base standardizes engineering.
 
 Each blueprint owns its own visual identity.
+
+---
+
+# Reusable AI Skills
+
+Blueprint Base supplies reusable AI skills — assistant-specific directories such as `.agents/skills/` and `.claude/skills/` at the blueprint root, alongside the infrastructure described above.
+
+Skills are reusable implementation infrastructure, not knowledge. They assist engineers and AI assistants during implementation and review.
+
+Use a skill where one is available and applicable to the task at hand. A skill never replaces manual verification or the review stages described later in this document, and it never overrides `.hubzero`. If a skill's guidance ever conflicts with Blueprint Core, Blueprint Core always takes precedence.
 
 ---
 

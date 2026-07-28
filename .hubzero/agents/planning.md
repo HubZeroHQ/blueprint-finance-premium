@@ -132,6 +132,12 @@ Only then begin implementation.
 
 ---
 
+# Reusable Skills
+
+Where Blueprint Base supplies a reusable skill applicable to planning, it may be used to assist this stage. It does not replace the judgment described above, and `.hubzero` remains the authority on HubZero's planning expectations.
+
+---
+
 # Guiding Principle
 
 Think first.
